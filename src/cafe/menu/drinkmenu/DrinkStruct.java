@@ -1,4 +1,4 @@
-package cafe.menu.drink;
+package cafe.menu.drinkmenu;
 
 import cafe.cafestruct.CafeStruct;
 

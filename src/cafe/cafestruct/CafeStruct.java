@@ -1,7 +1,5 @@
 package cafe.cafestruct;
 
-import cafe.menu.drink.DrinkStruct;
-
 public class CafeStruct{
     private String orderedMenuName;
     private int price;

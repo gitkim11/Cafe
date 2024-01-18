@@ -1,15 +1,11 @@
 package cafe;
 
 import cafe.cafestruct.CafeOrderStruct;
-import cafe.cafestruct.CafeStruct;
-import cafe.menu.drink.DrinkStruct;
 import cafe.ordertype.ChooseOrderType;
 import cafe.ordertype.OrderTypeDelivery;
 import cafe.ordertype.OrderTypeHall;
 import cafe.ordertype.OrderTypePacking;
 
-import java.util.List;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class CafeLauncherMain {

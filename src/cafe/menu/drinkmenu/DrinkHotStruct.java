@@ -1,4 +1,4 @@
-package cafe.menu.drink;
+package cafe.menu.drinkmenu;
 
 public class DrinkHotStruct extends DrinkStruct implements IDrinkHotable, IDrinkColdOrHotable {
 

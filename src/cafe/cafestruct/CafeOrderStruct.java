@@ -1,9 +1,9 @@
 package cafe.cafestruct;
 
-import cafe.menu.drink.DrinkColdStruct;
-import cafe.menu.drink.DrinkHotStruct;
-import cafe.menu.drink.DrinkStruct;
-import cafe.menu.food.FoodStruct;
+import cafe.menu.drinkmenu.DrinkColdStruct;
+import cafe.menu.drinkmenu.DrinkHotStruct;
+import cafe.menu.drinkmenu.DrinkStruct;
+import cafe.menu.foodmenu.FoodStruct;
 
 import java.util.Scanner;
 
