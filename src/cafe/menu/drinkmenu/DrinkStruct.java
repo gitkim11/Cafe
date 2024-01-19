@@ -43,7 +43,6 @@ public class DrinkStruct extends CafeStruct {
         this.temperature = temperature;
     }
 
-
     @Override
     public String toString() {
         String cafeMenuStruct = super.toString();

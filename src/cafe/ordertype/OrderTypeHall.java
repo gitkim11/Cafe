@@ -7,6 +7,6 @@ public class OrderTypeHall extends CafeStruct {
         super(String.valueOf(orderedMenuName));
     }
     public static void hallOrder(){
-            System.out.println("홀 주문입니다.");
+        System.out.println("홀 주문입니다.");
     }
 }

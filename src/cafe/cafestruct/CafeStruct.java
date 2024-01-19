@@ -9,7 +9,6 @@ public class CafeStruct{
         setOrderedMenuName(orderedMenuName);
         setPrice(price);
     }
-
     public CafeStruct(String orderedMenuName, String temperature) {
         setOrderedMenuName(orderedMenuName);
         setTemperature(temperature);
@@ -19,7 +18,6 @@ public class CafeStruct{
         setPrice(price);
         setTemperature(temperature);
     }
-
     public CafeStruct(String orderedMenuName) {
         setOrderedMenuName(orderedMenuName);
     }
@@ -59,5 +57,4 @@ public class CafeStruct{
     public static void order(CafeStruct orderedCafe) {
         System.out.println(orderedCafe.getOrderedMenuName() + "주문이 완료되었습니다.");
     }
-
 }

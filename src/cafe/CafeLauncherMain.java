@@ -1,11 +1,10 @@
 package cafe;
 
-import cafe.cafeorderstruct.CafeOrderMenuStruct;
-import cafe.cafeorderstruct.CafeOrderTypeStruct;
+import cafe.cafestruct.CafeOrderStruct;
 
 public class CafeLauncherMain {
     public static void main(String[] args) {
 
-        CafeOrderTypeStruct.cafeOrderTypeStruct();
+        CafeOrderStruct.cafeOrderTypeStruct();
     }
 }
