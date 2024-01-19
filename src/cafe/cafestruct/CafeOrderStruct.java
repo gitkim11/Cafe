@@ -24,7 +24,7 @@ public class CafeOrderStruct {
 
         switch (chooseMenuType) {
             case 1:
-                System.out.println("음료를 입력해주세요");
+                System.out.println("음료의 이름을 입력해주세요");
                 String orderedDrinkName = scanner.next();
                 System.out.println("온도를 선택해주세요 1. C | 2. H");
                 int orderedDrinkTemp = scanner.nextInt();
@@ -58,9 +58,9 @@ public class CafeOrderStruct {
         
         // 주문된 메뉴의 배달 타입을 분류 후 배달 타입별 리스트에 저장 후
         // 배달 타입별 리스트를 출력하는 기능 해결하기
-        ChooseOrderType<OrderTypeHall> orderHall = new ChooseOrderType<>();
-        ChooseOrderType<OrderTypePacking> orderPacking = new ChooseOrderType<>();
-        ChooseOrderType<OrderTypeDelivery> orderDelivery = new ChooseOrderType<>();
+        //ChooseOrderType<OrderTypeHall> orderHall = new ChooseOrderType<>();
+        //ChooseOrderType<OrderTypePacking> orderPacking = new ChooseOrderType<>();
+        //ChooseOrderType<OrderTypeDelivery> orderDelivery = new ChooseOrderType<>();
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("카페입니다. 환영합니다 \n");

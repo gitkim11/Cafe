@@ -8,23 +8,19 @@ import java.util.List;
 public class ChooseOrderType<ORDER_TYPE extends CafeStruct> {
 
     private String orderedMenuName;
-    private final List<String> orderTypes;
+    private List<ORDER_TYPE> orderTypes;
 
     public ChooseOrderType(String orderedMenuName) {
         this.orderedMenuName = orderedMenuName;
-        this.orderTypes = new ArrayList<String>();
+        this.orderTypes = new ArrayList<>();
     }
 
-    public ChooseOrderType() {
-        this.orderTypes = new ArrayList<String>();
-    }
-
-    public void orderList(String orderedMenuName) {
+    public void orderList(ORDER_TYPE orderedMenuName) {
         orderTypes.add(orderedMenuName);
-        System.out.println(orderedMenuName + "(이)가 담겼습니다.");
+        System.out.println(orderedMenuName.getOrderedMenuName() + "(이)가 담겼습니다.");
     }
 
-    public List<String> getOrderTypes() {
+    public List<ORDER_TYPE> getOrderTypes() {
         return orderTypes;
     }
 
@@ -32,3 +28,4 @@ public class ChooseOrderType<ORDER_TYPE extends CafeStruct> {
         this.orderedMenuName = orderedMenuName;
     }
 }
+
