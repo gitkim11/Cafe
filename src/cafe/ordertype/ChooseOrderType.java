@@ -8,7 +8,7 @@ import java.util.List;
 public class ChooseOrderType<ORDER_TYPE extends CafeStruct> {
 
     private String orderedMenuName;
-    private List<String> orderTypes;
+    private final List<String> orderTypes;
 
     public ChooseOrderType(String orderedMenuName) {
         this.orderedMenuName = orderedMenuName;
@@ -30,8 +30,5 @@ public class ChooseOrderType<ORDER_TYPE extends CafeStruct> {
 
     public void setOrderedMenuName(String orderedMenuName) {
         this.orderedMenuName = orderedMenuName;
-    }
-
-    public void order(){
     }
 }

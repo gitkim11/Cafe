@@ -59,4 +59,5 @@ public class CafeStruct{
     public static void order(CafeStruct orderedCafe) {
         System.out.println(orderedCafe.getOrderedMenuName() + "주문이 완료되었습니다.");
     }
+
 }

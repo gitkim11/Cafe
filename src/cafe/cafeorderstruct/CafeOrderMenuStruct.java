@@ -1,4 +1,4 @@
-package cafe.cafestruct;
+package cafe.cafeorderstruct;
 
 import cafe.menu.drinkmenu.DrinkColdStruct;
 import cafe.menu.drinkmenu.DrinkHotStruct;
@@ -7,7 +7,7 @@ import cafe.menu.foodmenu.FoodStruct;
 
 import java.util.Scanner;
 
-public class CafeOrderStruct {
+public class CafeOrderMenuStruct {
 
     public static String cafeOrderManual() {
         Scanner scanner = new Scanner(System.in);
@@ -47,6 +47,6 @@ public class CafeOrderStruct {
                 return (FoodStruct.cafeFoodMenu.get(orderedFoodName)).toString();
         }
         scanner.close();
-        return ""; // Default return value if no valid input is given
+        return "";
     }
 }
