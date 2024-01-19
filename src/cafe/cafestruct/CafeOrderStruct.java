@@ -11,7 +11,7 @@ import cafe.ordertype.OrderTypePacking;
 
 import java.util.Scanner;
 
-public class CafeOrderStruct {;
+public class CafeOrderStruct {
 
     public static String cafeOrderMenuStruct() {
 
