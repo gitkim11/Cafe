@@ -1,27 +1,26 @@
-package cafe.cafestruct;
+package cafe.cafe;
 
-public class CafeStruct{
+public abstract class Cafe {
     private String orderedMenuName;
     private int price;
     private String temperature;
 
-    public CafeStruct(String orderedMenuName, int price) {
+    public Cafe(String orderedMenuName, int price) {
         setOrderedMenuName(orderedMenuName);
         setPrice(price);
     }
-    public CafeStruct(String orderedMenuName, String temperature) {
+    public Cafe(String orderedMenuName, String temperature) {
         setOrderedMenuName(orderedMenuName);
         setTemperature(temperature);
     }
-    public CafeStruct(String orderedMenuName, int price, String temperature) {
+    public Cafe(String orderedMenuName, int price, String temperature) {
         setOrderedMenuName(orderedMenuName);
         setPrice(price);
         setTemperature(temperature);
     }
-    public CafeStruct(String orderedMenuName) {
+    public Cafe(String orderedMenuName) {
         setOrderedMenuName(orderedMenuName);
     }
-
 
     public String getOrderedMenuName() {
         return orderedMenuName;
@@ -54,7 +53,7 @@ public class CafeStruct{
                 ", price=" + price +
                 '}';
     }
-    public static void order(CafeStruct orderedCafe) {
+    public static void order(Cafe orderedCafe) {
         System.out.println(orderedCafe.getOrderedMenuName() + "주문이 완료되었습니다.");
     }
 }
